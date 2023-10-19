@@ -7,7 +7,7 @@ const Router = require("./Routes");
 const server = express();
 
 server.get("/",(req,res)=>{
-    res.send("Api is running")
+    res.send("Api is running home")
 });
 
 server.use("/api/blogsite/main",Router)
