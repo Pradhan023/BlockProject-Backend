@@ -2,16 +2,8 @@
 
 const ExpressRoutes = require("express").Router();
 
-const  {BollywoodController,HollywoodController,TechnologyController,FitnessController,EducationController} = require("./Controller/Category")   //variable name should be same as exporting name
+const  {DataController} = require("./Controller/Category")   //variable name should be same as exporting name
 
-ExpressRoutes.get("/bollywood",BollywoodController);
-
-ExpressRoutes.get("/hollywood",HollywoodController);
-
-ExpressRoutes.get("/technology",TechnologyController);
-
-ExpressRoutes.get("/fitness",FitnessController);
-
-ExpressRoutes.get("/education",EducationController);
+ExpressRoutes.get("/data",DataController);
 
 module.exports = ExpressRoutes;
