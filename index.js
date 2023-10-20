@@ -4,7 +4,13 @@ const port = 5020
 
 const Router = require("./Routes");
 
+const cors = require("cors")
+
 const server = express();
+
+server.use(cors({
+    origin:"*"
+}));
 
 server.get("/",(req,res)=>{
     res.send("Api is running")
