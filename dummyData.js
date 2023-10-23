@@ -586,10 +586,10 @@ const Data = [
     },
     {
         id: 4,
-        heading: "",
-        image: "",
-        description:"",
-        contentDesc:"",
+        heading: "IIT Madras and IIM Ahmedabad incubated company GUVI launches initiative to train TN youth in coding for free of cost",
+        image: "https://www.hindustantimes.com/ht-img/img/2023/10/12/550x309/IIT_Madras_and_IIM_A-incubated_company_GUV_1697099665799_1697099666039.jpeg",
+        description:"Through hackathon series, students will attempt to solve the problem statements of various TN government departments and provide innovative tech solutions.",
+        contentDesc:"IIT Madras and IIM Ahmedabad incubated company GUVI launched an initiative to train one lakh engineering students in Tamil Nadu through a series of hackathons. According to a press release by GUVI an online technical learning platform, the company has partnered with the ‘Naan Mudhalvan’ initiative of the Tamil Nadu government, Anna University and the Tamil Nadu Skill Development Corporation. The ‘Naan Mudhalvan-Tamil Nadu Coders Premier League’ (NM-TNcpl) is a series of online and offline hackathons, which over three months will provide a platform for ambitious engineering students of TN to exhibit their coding skills while gaining valuable upskilling opportunities, completely free of cost, stated the media release.",
         category:"Education",
         Anish: "Pradhan"
     },
